@@ -6,27 +6,39 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .container {
-	box-shadow: 7px 7px 40px #b8b8b8;
-	min-width: 1100px;
+	box-shadow: 7px 7px 20px #b8b8b8;
+	width: 1366px;
 	position: relative;
 	padding: 0px;
 }
 
 #header {
-	background: #fbed54;
-	height: 130px;
 	width: 100%;
 	padding-top: 40px;
 	margin: 0px;
 	opacity: 0;
 }
 
+
+.headerhome {
+	background-image: url(../img/header_home.jpg);
+	height: 230px;
+}
+
+.headerwork {
+	background-color: green;
+	height: 130px;
+	width: 80%;
+	margin: 0px auto;
+}
+
 #content {
-	min-height: 800px;
+	position: relative;
+	min-height: 900px;
 }
 
 #footer {
-	position: absolute;
+	z-index: 99;
 	width: 100%;
 	bottom: 0px;
 	background-color: #ec2700;
