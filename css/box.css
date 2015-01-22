@@ -10,36 +10,11 @@ body {
 	width: 1366px;
 	position: relative;
 	padding: 0px;
+	padding-top: -10px;
 }
 
 #header {
-	width: 100%;
-	padding-top: 40px;
-	margin: 0px;
-	opacity: 0;
-}
-
-
-.headerhome {
-	background-image: url(../img/header_home.jpg);
-	height: 230px;
-}
-
-.headerwork {
-	background-color: green;
-	height: 130px;
-	width: 80%;
-	margin: 0px auto;
-}
-
-#content {
-	position: relative;
-	min-height: 900px;
-}
-
-#footer {
-	z-index: 99;
-	width: 100%;
-	bottom: 0px;
-	background-color: #ec2700;
+	background-image: url(../img/header_new.jpg);
+	min-width: 100%;
+	min-height: 200px;
 }
